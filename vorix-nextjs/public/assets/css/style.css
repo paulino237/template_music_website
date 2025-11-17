@@ -6225,9 +6225,9 @@ html {
 .light-mode .ambient-inner { background: rgba(246,245,243,0.98); color: #0E0E0E; }
 .ambient-fab {
   position: fixed;
-  right: 16px;
-  bottom: 16px;
-  z-index: 1500;
+  right: calc(2rem + 3.5rem);
+  bottom: 2rem;
+  z-index: 2000;
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -6240,6 +6240,13 @@ html {
   border: 0;
 }
 .light-mode .ambient-fab { background: #6D28D9; color: #FFFFFF; }
+@media only screen and (max-width: 575.98px) {
+  .ambient-fab {
+    left: 16px;
+    right: auto;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  }
+}
 .player-btn.repeat-btn.active {
   border-color: rgba(109,40,217,0.55);
   box-shadow: 0 12px 24px rgba(109,40,217,0.35);

@@ -30,34 +30,38 @@ export default function AmbientAudio() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  if (!showPrompt) return null;
   return (
     <>
-      <div className="ambient-overlay">
-        <div className="ambient-inner">
-          <h4 className="mb-2">Immersion musicale</h4>
-          <p className="mb-1">Un son d’ambiance peut se jouer en arrière‑plan pour une meilleure immersion.</p>
-          <p className="mb-3 hint">Sur ordinateur : appuyez sur <strong>M</strong> pour mettre en pause / reprendre.</p>
-          <p className="mb-3 hint">Sur mobile : utilisez le bouton flottant en bas à droite.</p>
-          <div className="d-flex gap-2 justify-content-center">
-            <button className="btn btn-primary" onClick={() => { setActive(true); setShowPrompt(false); }}>Activer</button>
-            <button className="btn btn-outline-primary" onClick={() => setShowPrompt(false)}>Ignorer</button>
+      {showPrompt && (
+        <div className="ambient-overlay">
+          <div className="ambient-inner">
+            <h4 className="mb-2">Immersion musicale</h4>
+            <p className="mb-1">Un son d’ambiance peut se jouer en arrière‑plan pour une meilleure immersion.</p>
+            <p className="mb-3 hint">Sur ordinateur : appuyez sur <strong>M</strong> pour mettre en pause / reprendre.</p>
+            <p className="mb-3 hint">Sur mobile : utilisez le bouton flottant en bas à droite.</p>
+            <div className="d-flex gap-2 justify-content-center">
+              <button className="btn btn-primary" onClick={() => { setActive(true); setShowPrompt(false); }}>Activer</button>
+              <button className="btn btn-outline-primary" onClick={() => setShowPrompt(false)}>Ignorer</button>
+            </div>
           </div>
         </div>
-      </div>
-      {active && (
-        <button
-          className="ambient-fab"
-          aria-label="Pause/Reprendre le son d’ambiance"
-          onClick={() => {
-            const a = audioRef.current;
-            if (!a) return;
-            if (a.paused) a.play().catch(() => {}); else a.pause();
-          }}
-        >
-          ♬
-        </button>
       )}
+      <button
+        className="ambient-fab"
+        aria-label="Pause/Reprendre le son d’ambiance"
+        onClick={() => {
+          const a = audioRef.current;
+          if (!active) {
+            setActive(true);
+            setShowPrompt(false);
+            return;
+          }
+          if (!a) return;
+          if (a.paused) a.play().catch(() => {}); else a.pause();
+        }}
+      >
+        ♬
+      </button>
     </>
   );
 }
