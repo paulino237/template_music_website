@@ -85,12 +85,12 @@ const AboutArea = () => {
 
               <div className="col-12 col-md-9">
                 <div className="partners-slide ms-md-4 d-flex flex-wrap align-items-center justify-content-between">
-                  <img src="/assets/img/partner-img/1.png" alt="" />
-                  <img src="/assets/img/partner-img/2.png" alt="" />
-                  <img src="/assets/img/partner-img/3.png" alt="" />
-                  <img src="/assets/img/partner-img/4.png" alt="" />
-                  <img src="/assets/img/partner-img/3.png" alt="" />
-                  <img src="/assets/img/partner-img/5.png" alt="" />
+                  <img src="https://dummyimage.com/120x40/1A1A1A/FEFEFE&text=Label" alt="Label" />
+                  <img src="https://dummyimage.com/120x40/1A1A1A/FEFEFE&text=Music" alt="Music" />
+                  <img src="https://dummyimage.com/120x40/1A1A1A/FEFEFE&text=Audio" alt="Audio" />
+                  <img src="https://dummyimage.com/120x40/1A1A1A/FEFEFE&text=Beats" alt="Beats" />
+                  <img src="https://dummyimage.com/120x40/1A1A1A/FEFEFE&text=Tracks" alt="Tracks" />
+                  <img src="https://dummyimage.com/120x40/1A1A1A/FEFEFE&text=Waves" alt="Waves" />
                 </div>
               </div>
             </div>

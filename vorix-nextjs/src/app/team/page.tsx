@@ -3,8 +3,8 @@ import Team from "@/components/team";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Équipe Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Notre équipe.",
+	title: "Équipe MPlayer - Template Next.js",
+	description: "MPlayer - Notre équipe.",
 };
 
 const index = () => {

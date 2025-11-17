@@ -13,7 +13,7 @@ const BlogDetailsArea = () => {
             <div className="col-12 col-md-7 col-lg-8">
 
               <div className="single-blog">
-                <img src="/assets/img/bg-img/46.jpg" alt="" />
+                <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop" alt="Article" />
                 <div className="blog-meta d-flex align-items-center">
                   <a href="#">March 26, 24</a>
                   <div className="dot"></div>
@@ -230,7 +230,7 @@ const BlogDetailsArea = () => {
 
                     <div className="widget-blog-post">
                       <div className="blog-thumbnail">
-                        <img src="/assets/img/bg-img/41.jpg" alt="" />
+                        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=300&auto=format&fit=crop" alt="Miniature" />
                       </div>
                       <div className="blog-content">
                         <h6><Link href="/blog-details">Graphic Design Agency your Brand Needs.</Link></h6>
@@ -241,7 +241,7 @@ const BlogDetailsArea = () => {
 
                     <div className="widget-blog-post">
                       <div className="blog-thumbnail">
-                        <img src="/assets/img/bg-img/42.jpg" alt="" />
+                        <img src="https://images.unsplash.com/photo-1518972559570-1ec7c9043cc8?q=80&w=300&auto=format&fit=crop" alt="Miniature" />
                       </div>
                       <div className="blog-content">
                         <h6><Link href="/blog-details">Providing Brilliant Ideas For your Business</Link></h6>
@@ -252,7 +252,7 @@ const BlogDetailsArea = () => {
 
                     <div className="widget-blog-post">
                       <div className="blog-thumbnail">
-                        <img src="/assets/img/bg-img/43.jpg" alt="" />
+                        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=300&auto=format&fit=crop" alt="Miniature" />
                       </div>
                       <div className="blog-content">
                         <h6><Link href="/blog-details">The Latest Trends With Digital Marketing</Link></h6>

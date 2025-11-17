@@ -9,7 +9,7 @@ const Portfolio = () => {
 	return (
 		<>
 			<HeaderOne />
-			<Breacrumb title="Portfolio" subtitle="Portfolio" />
+			<Breacrumb title="Playlists" subtitle="Playlists" />
 			<PortfolioArea />
 			<Cta2Area />
 			<FooterOne />

@@ -3,7 +3,7 @@ import PortfolioDetails from "@/components/portfolio-details";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Nocturne Music - Détails de playlist",
+	title: "MPlayer - Détails de playlist",
 	description: "Découvrez les informations, visuels et le contexte musical de cette playlist.",
 };
 

@@ -3,8 +3,8 @@ import Faq from "@/components/faq";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "FAQ Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Questions fréquentes.",
+	title: "FAQ MPlayer - Template Next.js",
+	description: "MPlayer - Questions fréquentes.",
 };
 
 const index = () => {

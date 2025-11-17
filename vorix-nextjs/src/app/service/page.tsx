@@ -3,8 +3,8 @@ import Service from "@/components/service";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Services Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Fonctionnalités et services.",
+	title: "Services MPlayer - Template Next.js",
+	description: "MPlayer - Fonctionnalités et services.",
 };
 
 const index = () => {

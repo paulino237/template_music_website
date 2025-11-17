@@ -71,7 +71,7 @@ const VideoAreaHomeOne: React.FC = () => {
         data-jarallax=""
         data-speed="0.6"
         style={{
-          backgroundImage: `url(/assets/img/bg-img/11.jpg)`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1518972559570-1ec7c9043cc8?q=80&w=1600&auto=format&fit=crop)`,
           backgroundAttachment: 'fixed',
         }}
       >

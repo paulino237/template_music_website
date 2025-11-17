@@ -4,9 +4,11 @@ import React from 'react';
 
 const ServiceDetailsArea = () => {
 
-  if(typeof window !== 'undefined') {
-    require("bootstrap/dist/js/bootstrap");
-  }
+  React.useEffect(() => {
+    if (typeof window !== 'undefined') {
+      require("bootstrap/dist/js/bootstrap");
+    }
+  }, []);
 
   return (
     <>
@@ -18,66 +20,60 @@ const ServiceDetailsArea = () => {
 
             <div className="col-12 col-lg-8">
               <div className="service-details-content">
-                <img className="rounded-lg" src="/assets/img/bg-img/33.jpg" alt="" />
-                <h2>Web Development</h2>
-                <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a book
-                  bethas survived not only five when anner year unknown printer eed little help from friend from time
-                  to time. Although we offer the one-stop convenience. unknown printer took galley type year anddey
-                  scrambled.</p>
-                <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a book
-                  bethas survived not only five when anner year unknown printer eed little help from friend from time
-                  to time. Although we offer the one-stop convenience. unknown printer took galley type year anddey
-                  scrambled.</p>
+                <img className="rounded-lg" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop" alt="Service" />
+                <h2>Lecteur audio</h2>
+                <p>Interface moderne, commandes intuitives et écoute fluide. Notre lecteur offre une expérience
+                  centrée sur la musique avec des visuels immersifs et un contrôle précis du temps et du volume.</p>
+                <p>Compatible avec des playlists longues, il maintient une continuité d’écoute sans rupture pour
+                  favoriser la concentration ou la détente selon vos besoins.</p>
 
                 <ul className="list-unstyled">
                   <li>
                     <span className="material-symbols-outlined">check_circle</span>
-                    Sed nisl fusce est consequat mollis habitasse facilisi rutrum nisle.
+                    Contrôles clairs : lecture/pause, précédent/suivant, seek et volume.
                   </li>
 
                   <li>
                     <span className="material-symbols-outlined">check_circle</span>
-                    Cubilia quisque ad accumsan lorem platea elementum nisl curabitur dapibus.
+                    Longues sessions : playlists stables, enchaînements harmonieux.
                   </li>
                   <li>
                     <span className="material-symbols-outlined">check_circle</span>
-                    Egestas magnis sapien hack vehicula condimentum dui enim justo site.
+                    Immersion visuelle : shimmer violet, couverture et animations subtiles.
                   </li>
                 </ul>
 
                 <div className="row g-4">
                   <div className="col-6">
-                    <img src="/assets/img/bg-img/34.jpg" alt="" />
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=900&auto=format&fit=crop" alt="Détail service" />
                   </div>
                   <div className="col-6">
-                    <img src="/assets/img/bg-img/35.jpg" alt="" />
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=900&auto=format&fit=crop" alt="Détail service" />
                   </div>
                 </div>
 
-                <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a book
-                  bethas survived not only five when anner year unknown printer eed little help from friend from time
-                  to time. Although we offer the one-stop convenience. unknown printer took galley type year anddey
-                  scrambled.</p>
+                <p>Le lecteur est conçu pour rester performant et agréable sur la durée, avec une interface qui
+                  favorise la simplicité et l’accessibilité.</p>
               </div>
 
               <div className="divider-sm"></div>
 
 
               <div className="faq-accordion service-details-faq">
-                <h3 className="mb-5">Frequently Asked Question</h3>
+                <h3 className="mb-5">Questions fréquentes</h3>
                 <div className="accordion" id="faqAccordion">
 
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button className="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqQuestion1" aria-expanded="true" aria-controls="faqQuestion1">
-                        What is vision for the future?
+                        Quelle est votre vision pour l’avenir de MPlayer ?
                       </button>
                     </h2>
                     <div id="faqQuestion1" className="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
                       <div className="accordion-body">
-                        A business consultant is a professional who provides expert advice and guidance on various
-                        aspects such.
+                        Une écoute fluide et immersive : lecteur moderne, playlists soignées et découverte d’artistes
+                        portée par la communauté.
                       </div>
                     </div>
                   </div>
@@ -86,13 +82,12 @@ const ServiceDetailsArea = () => {
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqQuestion2" aria-expanded="false" aria-controls="faqQuestion2">
-                        Do you offer free resources?
+                        Proposez‑vous des ressources gratuites ?
                       </button>
                     </h2>
                     <div id="faqQuestion2" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                       <div className="accordion-body">
-                        A business consultant is a professional who provides expert advice and guidance on various
-                        aspects such.
+                        Oui. Des playlists publiques, articles et conseils d’écoute sont disponibles.
                       </div>
                     </div>
                   </div>
@@ -101,13 +96,12 @@ const ServiceDetailsArea = () => {
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqQuestion3" aria-expanded="false" aria-controls="faqQuestion3">
-                        Can help to find investors?
+                        Aidez‑vous à trouver des partenaires ou labels ?
                       </button>
                     </h2>
                     <div id="faqQuestion3" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                       <div className="accordion-body">
-                        A business consultant is a professional who provides expert advice and guidance on various
-                        aspects such.
+                        Nous collaborons avec des artistes et labels. Contactez‑nous pour étudier les opportunités.
                       </div>
                     </div>
                   </div>
@@ -116,13 +110,12 @@ const ServiceDetailsArea = () => {
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqQuestion4" aria-expanded="false" aria-controls="faqQuestion4">
-                        Can help to find investors?
+                        Offrez‑vous un accompagnement promotionnel ?
                       </button>
                     </h2>
                     <div id="faqQuestion4" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                       <div className="accordion-body">
-                        A business consultant is a professional who provides expert advice and guidance on various
-                        aspects such.
+                        Nous partageons nos coups de cœur, publions des contenus et relayons les nouveautés.
                       </div>
                     </div>
                   </div>
@@ -131,13 +124,13 @@ const ServiceDetailsArea = () => {
                     <h2 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#faqQuestion5" aria-expanded="false" aria-controls="faqQuestion5">
-                        What services do you offer?
+                        Quels services proposez‑vous ?
                       </button>
                     </h2>
                     <div id="faqQuestion5" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                       <div className="accordion-body">
-                        A business consultant is a professional who provides expert advice and guidance on various
-                        aspects such.
+                        Lecteur audio, playlists thématiques, favoris/partage, découverte d’artistes et contenus
+                        éditoriaux.
                       </div>
                     </div>
                   </div>
@@ -149,36 +142,36 @@ const ServiceDetailsArea = () => {
               <div className="d-flex flex-column gap-5">
 
                 <div className="service-widget">
-                  <h4 className="mb-4">Service List</h4>
+                  <h4 className="mb-4">Services musicaux</h4>
 
                   <ul className="service-list">
                     <li>
                       <Link href="/service-details">
-                        Digital Marketing
+                        Lecteur audio
                         <span className="material-symbols-outlined">arrow_forward</span>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        Web Development
+                        Playlists
                         <span className="material-symbols-outlined">arrow_forward</span>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        Mobile Apps
+                        Favoris & Partage
                         <span className="material-symbols-outlined">arrow_forward</span>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        UI/UX Design
+                        Découverte d’artistes
                         <span className="material-symbols-outlined">arrow_forward</span>
                       </Link>
                     </li>
                     <li>
                       <Link href="/service-details">
-                        Animation Design
+                        UI/UX musical
                         <span className="material-symbols-outlined">arrow_forward</span>
                       </Link>
                     </li>
@@ -187,7 +180,7 @@ const ServiceDetailsArea = () => {
 
 
                 <div className="service-widget brochures">
-                  <h4 className="mb-4">Our Brochures</h4>
+                  <h4 className="mb-4">Brochure</h4>
 
                   <div className="d-flex gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
@@ -218,9 +211,8 @@ const ServiceDetailsArea = () => {
                       </defs>
                     </svg>
                     <div>
-                      <p>Business is marketing discipline focused on growing visibility info
-                        (non-paid) technic required.</p>
-                      <a href="#" className="btn-link">Click here to download</a>
+                      <p>Présentation de l’expérience MPlayer, du lecteur, des playlists et de la découverte d’artistes.</p>
+                      <a href="https://myportfolio-tan-zeta.vercel.app/" target="_blank" rel="noreferrer" className="btn-link">Cliquez ici pour télécharger</a>
                     </div>
                   </div>
                 </div>

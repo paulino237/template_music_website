@@ -4,8 +4,8 @@ import Register from "@/components/register";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Register Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Créez votre compte.",
+	title: "Inscription MPlayer - Template Next.js",
+	description: "MPlayer - Créez votre compte.",
 };
 
 const index = () => {

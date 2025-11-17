@@ -3,8 +3,8 @@ import Login from "@/components/login";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Login Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Connectez-vous.",
+	title: "Connexion MPlayer - Template Next.js",
+	description: "MPlayer - Connectez-vous.",
 };
 
 const index = () => {

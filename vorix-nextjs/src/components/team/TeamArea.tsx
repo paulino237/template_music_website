@@ -15,10 +15,10 @@ const TeamArea = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <Link href="/team-details">
                 <div className="team-card">
-                  <img src="/assets/img/bg-img/22.jpg" alt="" />
+                  <div className="avatar-icon"><span className="material-symbols-outlined">person</span></div>
                   <div className="team-info">
-                    <h4>Daniyel Karlos</h4>
-                    <p className="mb-0">Web Developer</p>
+                    <h4>MIGUEL FOSSO</h4>
+                    <p className="mb-0">LEAD DEVELOPER EXPERT</p>
                   </div>
                 </div>
               </Link>
@@ -28,10 +28,10 @@ const TeamArea = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <Link href="/team-details">
                 <div className="team-card">
-                  <img src="/assets/img/bg-img/23.jpg" alt="" />
+                  <div className="avatar-icon"><span className="material-symbols-outlined">mic</span></div>
                   <div className="team-info">
                     <h4>Reece Bronson</h4>
-                    <p className="mb-0">Sr. Director</p>
+                    <p className="mb-0">Curateur</p>
                   </div>
                 </div>
               </Link>
@@ -41,10 +41,10 @@ const TeamArea = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <Link href="/team-details">
                 <div className="team-card">
-                  <img src="/assets/img/bg-img/24.jpg" alt="" />
+                  <div className="avatar-icon"><span className="material-symbols-outlined">headphones</span></div>
                   <div className="team-info">
                     <h4>Steve Liddle</h4>
-                    <p className="mb-0">Web Developer</p>
+                    <p className="mb-0">DJ</p>
                   </div>
                 </div>
               </Link>
@@ -54,10 +54,10 @@ const TeamArea = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <Link href="/team-details">
                 <div className="team-card">
-                  <img src="/assets/img/bg-img/25.jpg" alt="" />
+                  <div className="avatar-icon"><span className="material-symbols-outlined">tune</span></div>
                   <div className="team-info">
                     <h4>Ryan Williams</h4>
-                    <p className="mb-0">CEO & Founder</p>
+                    <p className="mb-0">Éditeur</p>
                   </div>
                 </div>
               </Link>
@@ -67,10 +67,10 @@ const TeamArea = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <Link href="/team-details">
                 <div className="team-card">
-                  <img src="/assets/img/bg-img/39.jpg" alt="" />
+                  <div className="avatar-icon"><span className="material-symbols-outlined">music_note</span></div>
                   <div className="team-info">
                     <h4>Steven A. Urenda</h4>
-                    <p className="mb-0">Sr. Director</p>
+                    <p className="mb-0">Artiste</p>
                   </div>
                 </div>
               </Link>
@@ -80,10 +80,10 @@ const TeamArea = () => {
             <div className="col-12 col-sm-6 col-lg-4">
               <Link href="/team-details">
                 <div className="team-card">
-                  <img src="/assets/img/bg-img/40.jpg" alt="" />
+                  <div className="avatar-icon"><span className="material-symbols-outlined">guitar</span></div>
                   <div className="team-info">
                     <h4>Jhone Mathus</h4>
-                    <p className="mb-0">Web Designer</p>
+                    <p className="mb-0">Guitare</p>
                   </div>
                 </div>
               </Link>

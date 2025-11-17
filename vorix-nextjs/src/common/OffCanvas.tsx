@@ -9,8 +9,7 @@ const OffCanvas = ({openCanvas, setOpenCavas} : any) => {
 
         <div className="offcanvas-header">
           <div>
-            <img className="dark-logo" src="/assets/img/core-img/logo.png" alt="" />
-            <img className="light-logo" src="/assets/img/core-img/logo-light.png" alt="" />
+            <span className="brand-text">MPlayer</span>
           </div>
 
           <button type="button" className="btn-close btn-close-white shadow-lg" data-bs-dismiss="offcanvas"
@@ -19,8 +18,8 @@ const OffCanvas = ({openCanvas, setOpenCavas} : any) => {
 
 
         <div className="offcanvas-body">
-          <h4 className="mb-3">Reach Out Us!</h4>
-          <p>Ready to take the first step towards unlocking opportunity realizing goals.</p>
+          <h4 className="mb-3">Contactez‑moi</h4>
+          <p>Disponible pour des missions freelance et projets musicaux. Parlons de vos idées.</p>
 
 
           <div className="contact-info">
@@ -42,8 +41,8 @@ const OffCanvas = ({openCanvas, setOpenCavas} : any) => {
               </div>
 
               <div>
-                <p>Phone number</p>
-                <h5 className="mb-0">+44 204 577 0077</h5>
+                <p>Téléphone</p>
+                <h5 className="mb-0">+237 654 932 696</h5>
               </div>
             </div>
 
@@ -58,8 +57,8 @@ const OffCanvas = ({openCanvas, setOpenCavas} : any) => {
               </div>
 
               <div>
-                <p>Email address</p>
-                <h5 className="mb-0">nocturne@gmail.com</h5>
+                <p>Adresse e‑mail</p>
+                <h5 className="mb-0">cocdog11@gmail.com</h5>
               </div>
             </div>
 
@@ -74,31 +73,31 @@ const OffCanvas = ({openCanvas, setOpenCavas} : any) => {
               </div>
 
               <div>
-                <p>Office Address</p>
-                <h5 className="mb-0">Washington Ave, NY </h5>
+                <p>Adresse</p>
+                <h5 className="mb-0">Yaoundé, Cameroun</h5>
               </div>
             </div>
           </div>
 
-          <h4 className="mb-3">Social Networks</h4>
+          <h4 className="mb-3">Réseaux sociaux</h4>
 
 
           <div className="social-nav">
-            <a href="#">
+            <a href="https://www.facebook.com/me/" target="_blank" rel="noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook"
                 viewBox="0 0 16 16">
                 <path
                   d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
               </svg>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/miguel-fosso/" target="_blank" rel="noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 className="bi bi-twitter-x" viewBox="0 0 16 16">
                 <path
                   d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
               </svg>
             </a>
-            <a href="#">
+            <a href="https://github.com/paulino237" target="_blank" rel="noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin"
                 viewBox="0 0 16 16">
                 <path
@@ -116,7 +115,7 @@ const OffCanvas = ({openCanvas, setOpenCavas} : any) => {
 
 
           <div className="cta-btn">
-            <Link href="/contact">Let's Talk <br /> with us</Link>
+            <Link href="https://myportfolio-tan-zeta.vercel.app/" target="_blank">Portfolio <br /> personnel</Link>
           </div>
         </div>
       </div>

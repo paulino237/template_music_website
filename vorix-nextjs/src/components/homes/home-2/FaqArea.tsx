@@ -24,7 +24,7 @@ const FaqArea = ({ style_2 }: any) => {
 
                 <div className="faq-info d-flex align-items-center">
                   <h2 className="mb-0">10k+</h2>
-                  <p className="mb-0">Avis d’auditeurs</p>
+                  {/* <p className="mb-0">Avis </p> */}
                 </div>
               </div>
             </div>

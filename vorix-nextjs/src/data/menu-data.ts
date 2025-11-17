@@ -2,92 +2,50 @@
 const menu_data = [
   {
     id: 1,
-    title: "Home",
-    link: "#",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/", title: "Home 01", },
-      { link: "/home-2", title: "Home 02", },
-    ]
+    title: "Accueil",
+    link: "/",
+    has_dropdown: false,
+    sub_menus: []
   },
   {
     id: 2,
-    title: "Pages",
+    title: "Musique",
     link: "#",
     has_dropdown: true,
     sub_menus: [
-      {
-        link: "/about-us",
-        title: "About Us",
-        has_inner_dropdown: false,
-      },
-      {
-        link: "#",
-        title: "Service",
-        has_inner_dropdown: true,
-        inner_submenu: [
-          { link: "/service", title: "Service" },
-          { link: "/service-details", title: "Service Details" },
-
-        ]
-      },
-      {
-        link: "#",
-        title: "Authentification",
-        has_inner_dropdown: true,
-        inner_submenu: [
-          { link: "/register", title: "Register" }, 
-          { link: "/login", title: "Login" }, 
-
-        ]
-      },
-      {
-        link: "/pricing-plan",
-        title: "Pricing Plan",
-        has_inner_dropdown: false, 
-      },
-      {
-        link: "/faq",
-        title: "FAQ",
-        has_inner_dropdown: false, 
-      },
-      {
-        link: "/team",
-        title: "Team",
-        has_inner_dropdown: false, 
-      },
-      {
-        link: "/team-details",
-        title: "Team Details",
-        has_inner_dropdown: false, 
-      },
-      {
-        link: "/404",
-        title: "404 - Error",
-        has_inner_dropdown: false, 
-      },
+      { link: "/#lecteur", title: "Lecteur" },
+      { link: "/portfolio", title: "Playlists" },
+      { link: "/team", title: "Artistes" },
     ]
   },
   {
     id: 3,
-    title: "Portfolio",
+    title: "Catalogue",
     link: "#",
     has_dropdown: true,
     sub_menus: [
-      { link: "/portfolio", title: "Portfolio", }, 
-      { link: "/portfolio-details", title: "Portfolio Details", }, 
+      { link: "/portfolio", title: "Albums", }, 
+      { link: "/portfolio-details", title: "Détails de l’album", }, 
     ]
   },
   {
     id: 4,
-    title: "Blog",
+    title: "Actualités",
     link: "#",
     has_dropdown: true,
     sub_menus: [
-      { link: "/blog", title: "Blog", }, 
-      { link: "/blog-details", title: "Blog Details", }, 
+      { link: "/blog", title: "Actus", }, 
+      { link: "/blog-details", title: "Détail de l’article", }, 
     ]
   },
+
+  {
+    id: 5,
+    title: "Profil",
+    link: "/team-details",
+    has_dropdown: false,
+    sub_menus: []
+  }
 
 ]
 

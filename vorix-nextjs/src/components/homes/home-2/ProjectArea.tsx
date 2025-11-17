@@ -134,47 +134,9 @@ const ProjectArea = () => {
                   </div>
                 </SwiperSlide>
 
-                <SwiperSlide className="swiper-slide">
-                  <div className="portfolio-card-two">
-                    <img src="/assets/img/bg-img/20.jpg" alt="" />
+               
 
-
-                    <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
-                      <a href="#">
-                        <span className="material-symbols-outlined">
-                          arrow_outward
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-
-
-                  <div className="portfolio-content-two">
-                    <h3>Branding Design platform</h3>
-                    <p className="mb-0">Branding Design</p>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="swiper-slide">
-                  <div className="portfolio-card-two">
-                    <img src="/assets/img/bg-img/21.jpg" alt="" />
-
-
-                    <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
-                      <a href="#">
-                        <span className="material-symbols-outlined">
-                          arrow_outward
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-
-
-                  <div className="portfolio-content-two">
-                    <h3>Product Development</h3>
-                    <p className="mb-0">Product Development</p>
-                  </div>
-                </SwiperSlide>
+                
              
             </Swiper>
           </div>

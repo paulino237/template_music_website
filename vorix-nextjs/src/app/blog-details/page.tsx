@@ -3,8 +3,8 @@ import BlogDetails from "@/components/blog-details";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Détails du blog Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Détails d'article.",
+	title: "Détails du blog MPlayer - Template Next.js",
+	description: "MPlayer - Détails d'article.",
 };
 
 const index = () => {

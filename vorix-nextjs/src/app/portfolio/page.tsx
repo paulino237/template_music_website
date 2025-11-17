@@ -3,8 +3,8 @@ import Portfolio from "@/components/portfolio";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Playlists Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Explorez nos playlists.",
+	title: "Playlists MPlayer - Template Next.js",
+	description: "MPlayer - Explorez nos playlists.",
 };
 
 const index = () => {

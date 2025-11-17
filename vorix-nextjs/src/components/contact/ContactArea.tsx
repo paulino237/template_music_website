@@ -27,8 +27,8 @@ const ContactArea = () => {
                   </svg>
                 </div>
 
-                <p className="mb-0">Phone number</p>
-                <h4>+44 204 577 0077</h4>
+                <p className="mb-0">Téléphone</p>
+                <h4>+237 654 932 696</h4>
               </div>
             </div>
 
@@ -43,8 +43,8 @@ const ContactArea = () => {
                   </svg>
                 </div>
 
-                <p className="mb-0">Email address</p>
-                <h4>nocturne@gmail.com</h4>
+                <p className="mb-0">cocdog11@gmail.com</p>
+                <h4>—</h4>
               </div>
             </div>
 
@@ -59,8 +59,8 @@ const ContactArea = () => {
                   </svg>
                 </div>
 
-                <p className="mb-0">Office Address</p>
-                <h4>Washington Ave, NY</h4>
+                <p className="mb-0">Adresse</p>
+                <h4>Yaoundé, Cameroun</h4>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ const ContactArea = () => {
               <div className="col-12 col-lg-10">
                 <div className="contact-form bg-secondary m-0 mt-0">
                   <div className="section-heading text-center">
-                    <h2>Have Questions? <br />Contact us!</h2>
+                    <h2>Besoin d’aide ? <br />Contactez‑moi</h2>
                   </div>
 
                   <div className="divider-sm"></div>
@@ -111,8 +111,8 @@ const ContactArea = () => {
                       </div>
                       <div className="col-12">
                         <div className="text-center">
-                          <button type="submit" className="btn btn-primary rounded-pill"><span>SEND
-                            MESSAGE</span><span>SEND MESSAGE</span></button>
+                          <button type="submit" className="btn btn-primary rounded-pill"><span>ENVOYER
+                            LE MESSAGE</span><span>ENVOYER LE MESSAGE</span></button>
                         </div>
                       </div>
                     </div>

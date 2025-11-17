@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import LazyImage from '@/common/LazyImage';
 
 const PortfolioArea = () => {
   return (
@@ -13,13 +14,13 @@ const PortfolioArea = () => {
 
             <div className="col-12 col-md-6">
               <div className="portfolio-card">
-                <img src="/assets/img/bg-img/7.jpg" alt="" />
+                <LazyImage src="https://images.unsplash.com/photo-1513863326356-0a6091e854b2?q=80&w=1200&auto=format&fit=crop" alt="Playlist Lo‑Fi" />
 
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Website Design</h3>
-                    <p className="mb-0">Branding Design</p>
+                    <h3 className="mb-0">Playlist : Lo‑Fi</h3>
+                    <p className="mb-0">Genre : Chill</p>
                   </div>
 
                   <Link href="/portfolio-details" className="btn">
@@ -47,13 +48,13 @@ const PortfolioArea = () => {
 
             <div className="col-12 col-md-6">
               <div className="portfolio-card">
-                <img src="/assets/img/bg-img/8.jpg" alt="" />
+                <LazyImage src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop" alt="Playlist Électro" />
 
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Website Design</h3>
-                    <p className="mb-0">Branding Design</p>
+                    <h3 className="mb-0">Playlist : Électro</h3>
+                    <p className="mb-0">Genre : Dance</p>
                   </div>
 
                   <Link href="/portfolio-details" className="btn">
@@ -81,13 +82,13 @@ const PortfolioArea = () => {
 
             <div className="col-12 col-md-6">
               <div className="portfolio-card">
-                <img src="/assets/img/bg-img/9.jpg" alt="" />
+                <LazyImage src="https://images.unsplash.com/photo-1518972559570-1ec7c9043cc8?q=80&w=1200&auto=format&fit=crop" alt="Playlist Jazz" />
 
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Website Design</h3>
-                    <p className="mb-0">Branding Design</p>
+                    <h3 className="mb-0">Playlist : Jazz</h3>
+                    <p className="mb-0">Genre : Smooth</p>
                   </div>
 
                   <Link href="/portfolio-details" className="btn">
@@ -115,13 +116,13 @@ const PortfolioArea = () => {
 
             <div className="col-12 col-md-6">
               <div className="portfolio-card">
-                <img src="/assets/img/bg-img/10.jpg" alt="" />
+                <LazyImage src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1200&auto=format&fit=crop" alt="Playlist Ambient" />
 
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Website Design</h3>
-                    <p className="mb-0">Branding Design</p>
+                    <h3 className="mb-0">Playlist : Ambient</h3>
+                    <p className="mb-0">Genre : Focus</p>
                   </div>
 
                   <Link href="/portfolio-details" className="btn">
@@ -149,13 +150,13 @@ const PortfolioArea = () => {
 
             <div className="col-12 col-md-6">
               <div className="portfolio-card">
-                <img src="/assets/img/bg-img/36.jpg" alt="" />
+                <LazyImage src="https://images.unsplash.com/photo-1475721027785-f74f9a42c340?q=80&w=1200&auto=format&fit=crop" alt="Playlist House" />
 
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Website Design</h3>
-                    <p className="mb-0">Branding Design</p>
+                    <h3 className="mb-0">Playlist : House</h3>
+                    <p className="mb-0">Genre : Deep</p>
                   </div>
 
                   <Link href="/portfolio-details" className="btn">
@@ -183,13 +184,13 @@ const PortfolioArea = () => {
 
             <div className="col-12 col-md-6">
               <div className="portfolio-card">
-                <img src="/assets/img/bg-img/37.jpg" alt="" />
+                <LazyImage src="https://images.unsplash.com/photo-1513883049090-d0d6b01933ac?q=80&w=1200&auto=format&fit=crop" alt="Playlist Piano" />
 
 
                 <div className="portfolio-overlay-content d-flex align-items-center justify-content-between">
                   <div className="me-4">
-                    <h3 className="mb-0">Website Design</h3>
-                    <p className="mb-0">Branding Design</p>
+                    <h3 className="mb-0">Playlist : Classique</h3>
+                    <p className="mb-0">Genre : Piano</p>
                   </div>
 
                   <Link href="/portfolio-details" className="btn">

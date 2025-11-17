@@ -3,8 +3,8 @@ import Contact from "@/components/contact";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Contact Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Contact et support.",
+	title: "Contact MPlayer - Template Next.js",
+	description: "MPlayer - Contact et support.",
 };
 
 const index = () => {

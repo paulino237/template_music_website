@@ -3,8 +3,8 @@ import PricingPlan from "@/components/pricing-plan";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Tarifs Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Plans et abonnements.",
+	title: "Tarifs MPlayer - Template Next.js",
+	description: "MPlayer - Plans et abonnements.",
 };
 
 const index = () => {

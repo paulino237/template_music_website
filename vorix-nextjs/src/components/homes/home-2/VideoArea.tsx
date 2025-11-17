@@ -97,10 +97,10 @@ const VideoArea = ({style_2} : any) => {
         {style_2 ? <div className="divider"></div> : null} 
         <div className="container">
           {style_2 ? null :
-          <div className="video-wrap bg-img" style={{ backgroundImage: `url(/assets/img/bg-img/11.jpg)` }}>
+          <div className="video-wrap bg-img" style={{ backgroundImage: `url(https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg)` }}>
             <div className="video-popup">
               <div className="popup-video">
-                <div className="video-btn" data-video="https://player.vimeo.com/video/1004501259">
+                <div className="video-btn" data-video="https://www.pexels.com/fr-fr/download/video/2022395/">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clipPath="url(#clip0_1_434)">
                       <path

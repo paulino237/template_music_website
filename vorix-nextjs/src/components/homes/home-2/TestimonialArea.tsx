@@ -51,8 +51,8 @@ const TestimonialArea = () => {
                         </div>
 
                         <div className="company-logo">
-                          <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Logo" />
-                          <span>|</span>
+                          {/* <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Logo" />
+                          <span>|</span> */}
                           <span>54 Avis</span>
                         </div>
                       </div>

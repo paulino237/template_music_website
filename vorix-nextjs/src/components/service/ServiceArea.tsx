@@ -3,13 +3,12 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 
 const services = [
-  { icon: "ads_click", title: "Digital Marketing", description: "Designed user interface contributes to a positive and a good user experience." },
-  { icon: "web", title: "Web Development", description: "Designed user interface contributes to a positive and a good user experience." },
-  { icon: "stream_apps", title: "Mobile Apps", description: "Designed user interface contributes to a positive and a good user experience." },
-  { icon: "design_services", title: "UI/UX Design", description: "Designed user interface contributes to a positive and a good user experience." },
-  { icon: "ads_click", title: "Digital Marketing", description: "Designed user interface contributes to a positive and a good user experience." },
-  { icon: "web", title: "Web Development", description: "Designed user interface contributes to a positive and a good user experience." },
-  
+  { icon: "queue_music", title: "Lecteur audio", description: "Écoutez vos morceaux avec un lecteur moderne et fluide." },
+  { icon: "playlist_add", title: "Playlists", description: "Créez et gérez des playlists thématiques adaptées à vos envies." },
+  { icon: "favorite", title: "Favoris & Partage", description: "Ajoutez en favoris et partagez facilement vos titres et playlists." },
+  { icon: "library_music", title: "Découverte d’artistes", description: "Explorez de nouveaux talents et suivez vos artistes préférés." },
+  { icon: "equalizer", title: "Streaming", description: "Écoute continue et stable, pensée pour les longues sessions." },
+  { icon: "design_services", title: "UI/UX musical", description: "Interface soignée et immersive pour une meilleure expérience d’écoute." },
 ];
 
 const ServiceArea = () => {

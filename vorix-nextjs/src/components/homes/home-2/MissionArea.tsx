@@ -1,11 +1,14 @@
 "use client" 
+import React, { useEffect } from 'react';
 import LazyImage from '@/common/LazyImage';
 
 const MissionArea = () => {
-
-  if(typeof window !== "undefined") {
-    require("bootstrap/dist/js/bootstrap");
-  }
+  
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      require("bootstrap/dist/js/bootstrap");
+    }
+  }, []);
 
  
 
@@ -24,7 +27,7 @@ const MissionArea = () => {
 
                 <div className="experience">
                   <h3 className="mb-0">10+</h3>
-                  <span>Années d’expérience musicale</span>
+                  {/* <span>Années d’expérience musicale</span> */}
                 </div>
               </div>
             </div>

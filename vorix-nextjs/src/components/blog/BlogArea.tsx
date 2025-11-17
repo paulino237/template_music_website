@@ -15,41 +15,38 @@ const BlogArea = () => {
 
                    
                   <div className="single-blog">
-                     <img src="/assets/img/bg-img/44.jpg" alt="" />
+                     <img src="https://images.unsplash.com/photo-1513863326356-0a6091e854b2?q=80&w=1200&auto=format&fit=crop" alt="Article" />
                      <div className="blog-meta d-flex align-items-center">
-                        <a href="#">March 26, 24</a>
+                        <span>26 Mars, 2024</span>
                         <div className="dot"></div>
-                        <a href="#">Branding</a>
+                        <span>Musique</span>
                      </div>
-                     <Link className="post-title mb-5" href="/blog-details">Graphic Design Agency your Brand Needs</Link>
-                     <Link href="/blog-details" className="btn btn-primary"><span>READ MORE</span><span>READ
-                           MORE</span></Link>
+                     <Link className="post-title mb-5" href="/blog-details">Les tendances de la production musicale</Link>
+                     <Link href="/blog-details" className="btn btn-primary"><span>LIRE PLUS</span><span>LIRE PLUS</span></Link>
                   </div>
 
                    
                   <div className="single-blog">
-                     <img src="/assets/img/bg-img/45.jpg" alt="" />
+                     <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop" alt="Article" />
                      <div className="blog-meta d-flex align-items-center">
-                        <a href="#">March 26, 24</a>
+                        <span>26 Mars, 2024</span>
                         <div className="dot"></div>
-                        <a href="#">Branding</a>
+                        <span>Playlists</span>
                      </div>
-                     <Link className="post-title mb-5" href="/blog-details">Providing Brilliant Ideas For your Business</Link>
-                     <Link href="/blog-details" className="btn btn-primary"><span>READ MORE</span><span>READ
-                           MORE</span></Link>
+                     <Link className="post-title mb-5" href="/blog-details">Créer des playlists engageantes</Link>
+                     <Link href="/blog-details" className="btn btn-primary"><span>LIRE PLUS</span><span>LIRE PLUS</span></Link>
                   </div>
 
                    
                   <div className="single-blog">
-                     <img src="/assets/img/bg-img/46.jpg" alt="" />
+                     <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop" alt="Article" />
                      <div className="blog-meta d-flex align-items-center">
-                        <a href="#">March 26, 24</a>
+                        <span>26 Mars, 2024</span>
                         <div className="dot"></div>
-                        <a href="#">Branding</a>
+                        <span>Artistes</span>
                      </div>
-                     <Link className="post-title mb-5" href="/blog-details">The Latest Trends With Digital Marketing</Link>
-                     <Link href="/blog-details" className="btn btn-primary"><span>READ MORE</span><span>READ
-                           MORE</span></Link>
+                     <Link className="post-title mb-5" href="/blog-details">Découvrir de nouveaux artistes</Link>
+                     <Link href="/blog-details" className="btn btn-primary"><span>LIRE PLUS</span><span>LIRE PLUS</span></Link>
                   </div>
 
                    
@@ -75,10 +72,10 @@ const BlogArea = () => {
                <div className="d-flex flex-column gap-5">
                    
                   <div className="blog-widget">
-                     <h4 className="mb-4">Search Here</h4>
+                     <h4 className="mb-4">Recherche</h4>
                       
                      <form onClick={(e) => e.preventDefault()}>
-                        <input type="search" placeholder="Search..." className="form-control" />
+                        <input type="search" placeholder="Rechercher..." className="form-control" />
                         <button type="submit">
                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                               fill="none">
@@ -92,36 +89,36 @@ const BlogArea = () => {
 
                    
                   <div className="blog-widget">
-                     <h4 className="mb-4">Categories</h4>
+                     <h4 className="mb-4">Catégories</h4>
 
                      <ul className="blog-list">
                         <li>
                            <Link href="/blog-details">
-                              Agency
+                              Musique
                               <span>(03)</span>
                            </Link>
                         </li>
                         <li>
                            <Link href="/blog-details">
-                              Business
+                              Playlists
                               <span>(01)</span>
                            </Link>
                         </li>
                         <li>
                            <Link href="/blog-details">
-                              Development
+                              Artistes
                               <span>(05)</span>
                            </Link>
                         </li>
                         <li>
                            <Link href="/blog-details">
-                              UI/UX Design
+                              Événements
                               <span>(02)</span>
                            </Link>
                         </li>
                         <li>
                            <Link href="/blog-details">
-                              Marketing
+                              Actus
                               <span>(04)</span>
                            </Link>
                         </li>
@@ -130,16 +127,16 @@ const BlogArea = () => {
 
                    
                   <div className="blog-widget">
-                     <h4 className="mb-4">Recent Post</h4>
+                     <h4 className="mb-4">Articles récents</h4>
 
                      <div className="d-flex flex-column gap-4">
                          
                         <div className="widget-blog-post">
                            <div className="blog-thumbnail">
-                              <img src="/assets/img/bg-img/41.jpg" alt="" />
+                              <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=300&auto=format&fit=crop" alt="Miniature" />
                            </div>
                            <div className="blog-content">
-                              <h6><Link href="/blog-details">Graphic Design Agency your Brand Needs.</Link></h6>
+                              <h6><Link href="/blog-details">Les bases du mixage audio</Link></h6>
                               <p className="mb-0">March 26, 2024</p>
                            </div>
                         </div>
@@ -147,10 +144,10 @@ const BlogArea = () => {
                          
                         <div className="widget-blog-post">
                            <div className="blog-thumbnail">
-                              <img src="/assets/img/bg-img/42.jpg" alt="" />
+                              <img src="https://images.unsplash.com/photo-1518972559570-1ec7c9043cc8?q=80&w=300&auto=format&fit=crop" alt="Miniature" />
                            </div>
                            <div className="blog-content">
-                              <h6><Link href="/blog-details">Providing Brilliant Ideas For your Business</Link></h6>
+                              <h6><Link href="/blog-details">Créer une playlist cohérente</Link></h6>
                               <p className="mb-0">March 26, 2024</p>
                            </div>
                         </div>
@@ -158,10 +155,10 @@ const BlogArea = () => {
                          
                         <div className="widget-blog-post">
                            <div className="blog-thumbnail">
-                              <img src="/assets/img/bg-img/43.jpg" alt="" />
+                              <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=300&auto=format&fit=crop" alt="Miniature" />
                            </div>
                            <div className="blog-content">
-                              <h6><Link href="/blog-details">The Latest Trends With Digital Marketing</Link></h6>
+                              <h6><Link href="/blog-details">Découvrir 5 artistes émergents</Link></h6>
                               <p className="mb-0">March 26, 2024</p>
                            </div>
                         </div>
@@ -170,17 +167,17 @@ const BlogArea = () => {
 
                    
                   <div className="blog-widget">
-                     <h4 className="mb-4">Tag Cloud</h4>
+                     <h4 className="mb-4">Nuage de tags</h4>
 
                      <ul className="tag-list list-unstyled">
-                        <li><a href="#">Agency</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Modern</a></li>
-                        <li><a href="#">Creative</a></li>
-                        <li><a href="#">Digital</a></li>
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Musique</a></li>
+                        <li><a href="#">Playlists</a></li>
+                        <li><a href="#">Artistes</a></li>
+                        <li><a href="#">Événements</a></li>
+                        <li><a href="#">Actus</a></li>
+                        <li><a href="#">Trucs & Astuces</a></li>
+                        <li><a href="#">Streaming</a></li>
+                        <li><a href="#">Mixage</a></li>
                      </ul>
                   </div>
                </div>

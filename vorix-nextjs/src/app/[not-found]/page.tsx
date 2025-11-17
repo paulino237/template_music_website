@@ -4,8 +4,8 @@ import Wrapper from '@/layouts/Wrapper';
 import React from 'react';
 
 export const metadata = {
-	title: "404 Error || Nocturne Music - Template Next.js",
-	description: "Nocturne Music - Page non trouvée", 
+	title: "404 Error || MPlayer - Template Next.js",
+	description: "MPlayer - Page non trouvée", 
 };
 
 

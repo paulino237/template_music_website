@@ -8,16 +8,20 @@ import Link from 'next/link';
 import { useEffect, useState } from "react";
 
 const HeaderOne = ({style_2} :any) => {
-  const [theme, setTheme] = useState(() => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("theme") || "light-mode";
-    }
-    return "light-mode";
-  });
+  const [theme, setTheme] = useState("dark-mode");
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    const saved = typeof window !== "undefined" ? localStorage.getItem("theme") : null;
+    setTheme(saved === "light-mode" ? "light-mode" : "dark-mode");
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     document.body.className = theme;
-    localStorage.setItem("theme", theme);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("theme", theme);
+    }
   }, [theme]);
 
   const toggleTheme = () => {
@@ -66,8 +70,7 @@ const HeaderOne = ({style_2} :any) => {
           <div className="container">
 
             <Link className="navbar-brand" href="/">
-              <img className="dark-logo" src="/assets/img/core-img/logo.png" alt="" />
-              <img className="light-logo" src="/assets/img/core-img/logo-light.png" alt="" />
+              <span className="brand-text">MPlayer</span>
             </Link>
 
 
@@ -87,22 +90,12 @@ const HeaderOne = ({style_2} :any) => {
                     onClick={() => openMobileMenu(item.title)}>{item.title}</Link>
                     {item.has_dropdown &&
                       <ul className="vorix-dd-menu" style={{ display: navTitle === item.title ? 'block' : 'none' }}>
-                        {item.sub_menus.map((sub_menu, index) => (
+                        {item.sub_menus.map((sub_menu: { link: string; title: string }, index: number) => (
                           <li key={index} className="vorix-dd">
-                            <Link href={sub_menu.link} 
-                            onClick={() => openMobileMenu2(sub_menu.title)}
-                            onMouseEnter={() =>  setNavTitle2(sub_menu.title)}
+                            <Link href={sub_menu.link}
+                              onClick={() => openMobileMenu2(sub_menu.title)}
+                              onMouseEnter={() => setNavTitle2(sub_menu.title)}
                             >{sub_menu.title}</Link>
-
-                            {'has_inner_dropdown' in sub_menu && sub_menu.has_inner_dropdown &&
-                              <ul className="vorix-dd-menu" style={{ display: navTitle2 === sub_menu.title ? 'block' : 'none' }}>
-                                {sub_menu?.inner_submenu?.map((inner_menu, inner_index) => (
-                                  <li key={inner_index}>
-                                    <Link href={inner_menu.link}>{inner_menu.title}</Link>
-                                  </li>
-                                ))}
-                              </ul>
-                            }
                           </li>
                         ))}
                       </ul>
@@ -132,7 +125,7 @@ const HeaderOne = ({style_2} :any) => {
                 </div>
 
                 <button id="theme-toggle" onClick={toggleTheme}
-                  className={`theme-btn ${theme === "light-mode" ? "" : "light-mode-active"}`}>
+                  className={`theme-btn ${mounted && theme !== "light-mode" ? "light-mode-active" : ""}`}>
                   <span className="material-symbols-outlined moon">clear_day</span>
                   <span className="material-symbols-outlined sun">bedtime</span>
                 </button>
@@ -162,7 +155,10 @@ const HeaderOne = ({style_2} :any) => {
               </div>
               :
 
-              <Link className="btn btn-primary" href="/"><span>ÉCOUTER MAINTENANT</span><span>ÉCOUTER MAINTENANT</span></Link>
+              <>
+                <Link className="btn btn-primary" href="/"><span>ÉCOUTER MAINTENANT</span><span>ÉCOUTER MAINTENANT</span></Link>
+                <Link className="btn btn-outline-primary ms-2" href="/login"><span>Connexion</span><span>Connexion</span></Link>
+              </>
 
               }
 

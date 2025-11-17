@@ -18,8 +18,8 @@ const ErrorArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="d-flex justify-content-center">
-                <img className="pb-2 dark-mode-404" src="/assets/img/core-img/404.png" alt="" />
-                <img className="pb-2 light-mode-404" src="/assets/img/core-img/404-light.png" alt="" />
+                <img className="pb-2 dark-mode-404" src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?q=80&w=600&auto=format&fit=crop" alt="404" />
+                <img className="pb-2 light-mode-404" src="https://images.unsplash.com/photo-1520974735194-5f7f3b6e4f0b?q=80&w=600&auto=format&fit=crop" alt="404" />
               </div>
               <div className="section-heading mt-5">
                 <h2 className="mb-4">Look Like You're Lost</h2>
