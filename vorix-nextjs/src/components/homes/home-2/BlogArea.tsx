@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import LazyImage from '@/common/LazyImage';
 
 const BlogArea = () => {
   return (
@@ -12,7 +13,7 @@ const BlogArea = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-lg-7">
               <div className="section-heading text-center">
-                <h2 className="mb-0">Read Our Articles and News</h2>
+                <h2 className="mb-0">Actus & News musique</h2>
               </div>
             </div>
           </div>
@@ -26,14 +27,14 @@ const BlogArea = () => {
 
             <div className="col-12 col-md-6 col-lg-4">
               <div className="blog-card-two">
-                <img src="/assets/img/bg-img/28.png" alt="" />
+                <LazyImage src="https://images.pexels.com/photos/164745/pexels-photo-164745.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Casque" />
                 <div className="blog-content">
                   <div className="blog-meta d-flex align-items-center">
                     <a href="#">March 26, 24</a>
                     <div className="dot"></div>
-                    <a href="#">Branding</a>
+                    <a href="#">Playlists</a>
                   </div>
-                  <Link className="post-title" href="/blog-details">Providing brilliant ideas For your business</Link>
+                  <Link className="post-title" href="/blog-details">Les playlists parfaites pour travailler</Link>
                 </div>
               </div>
             </div>
@@ -41,14 +42,14 @@ const BlogArea = () => {
 
             <div className="col-12 col-md-6 col-lg-4">
               <div className="blog-card-two">
-                <img src="/assets/img/bg-img/29.png" alt="" />
+                <LazyImage src="https://images.pexels.com/photos/408799/pexels-photo-408799.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Guitare" />
                 <div className="blog-content">
                   <div className="blog-meta d-flex align-items-center">
                     <a href="#">March 26, 24</a>
                     <div className="dot"></div>
-                    <a href="#">Branding</a>
+                    <a href="#">Artistes</a>
                   </div>
-                  <Link className="post-title" href="/blog-details">Top tools for efficient web development</Link>
+                  <Link className="post-title" href="/blog-details">Nouveaux talents à suivre ce mois-ci</Link>
                 </div>
               </div>
             </div>
@@ -56,14 +57,14 @@ const BlogArea = () => {
 
             <div className="col-12 col-md-6 col-lg-4">
               <div className="blog-card-two">
-                <img src="/assets/img/bg-img/30.png" alt="" />
+                <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Console" />
                 <div className="blog-content">
                   <div className="blog-meta d-flex align-items-center">
                     <a href="#">March 26, 24</a>
                     <div className="dot"></div>
-                    <a href="#">Branding</a>
+                    <a href="#">Conseils</a>
                   </div>
-                  <Link className="post-title" href="/blog-details">The Role Of Color Theory In Web Design</Link>
+                  <Link className="post-title" href="/blog-details">Améliorer votre expérience d’écoute</Link>
                 </div>
               </div>
             </div>

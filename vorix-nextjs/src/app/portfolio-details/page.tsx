@@ -3,9 +3,8 @@ import PortfolioDetails from "@/components/portfolio-details";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Portfolio Details Vorix - Creative Digital Agency Next js Template",
-	description: "Portfolio Vorix - Creative Digital Agency HTML Template",
-	 
+	title: "Nocturne Music - Détails de playlist",
+	description: "Découvrez les informations, visuels et le contexte musical de cette playlist.",
 };
 
 const index = () => {

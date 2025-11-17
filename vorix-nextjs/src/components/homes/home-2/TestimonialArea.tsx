@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import LazyImage from '@/common/LazyImage';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,7 +16,7 @@ const TestimonialArea = () => {
           <div className="row g-5">
             <div className="col-12 col-lg-6">
               <div className="section-heading">
-                <h2 className="mb-0">What Clients Say About the Tool</h2>
+                <h2 className="mb-0">Ce que disent nos auditeurs</h2>
               </div>
             </div>
 
@@ -50,25 +51,19 @@ const TestimonialArea = () => {
                         </div>
 
                         <div className="company-logo">
-                          <img src="/assets/img/bg-img/27.png" alt="" />
+                          <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Logo" />
                           <span>|</span>
-                          <span>54 Reviews</span>
+                          <span>54 Avis</span>
                         </div>
                       </div>
 
-                      <p>“He quickly delivered excellent design a per required specifications. New landing page
-                        will
-                        have refreshing simple look, while keeping page load light on images and at the same
-                        keeping
-                        professional look. Finally, it also seems very reasonable to implement responsive design,
-                        so
-                        I'm very happy with that.”</p>
+                      <p>“Lecture fluide, playlists inspirantes et visuels superbes. J’écoute tous les jours !”</p>
                       <div className="border-line"></div>
                       <div className="testimonial-info d-flex align-items-center">
-                        <img src="/assets/img/bg-img/16.png" alt="" />
+                        <LazyImage src="https://images.pexels.com/photos/415649/pexels-photo-415649.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Avatar" />
                         <div>
-                          <h4>Daniyel Karlos</h4>
-                          <p className="mb-0">UX Designer</p>
+                          <h4>Camille</h4>
+                          <p className="mb-0">Auditrice</p>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -89,24 +84,18 @@ const TestimonialArea = () => {
                         </div>
 
                         <div className="company-logo">
-                          <img src="/assets/img/bg-img/27.png" alt="" />
+                          <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Logo" />
                           <span>|</span>
-                          <span>54 Reviews</span>
+                          <span>54 Avis</span>
                         </div>
                       </div>
-                      <p>“He quickly delivered excellent design a per required specifications. New landing page
-                        will
-                        have refreshing simple look, while keeping page load light on images and at the same
-                        keeping
-                        professional look. Finally, it also seems very reasonable to implement responsive design,
-                        so
-                        I'm very happy with that.”</p>
+                      <p>“Les favoris sont pratiques et le contrôle du volume est précis. Belle expérience.”</p>
                       <div className="border-line"></div>
                       <div className="testimonial-info d-flex align-items-center">
-                        <img src="/assets/img/bg-img/16.png" alt="" />
+                        <LazyImage src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Avatar" />
                         <div>
-                          <h4>Daniyel Karlos</h4>
-                          <p className="mb-0">UX Designer</p>
+                          <h4>Youssef</h4>
+                          <p className="mb-0">Auditeur</p>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -127,24 +116,18 @@ const TestimonialArea = () => {
                         </div>
 
                         <div className="company-logo">
-                          <img src="/assets/img/bg-img/27.png" alt="" />
+                          <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Logo" />
                           <span>|</span>
-                          <span>54 Reviews</span>
+                          <span>54 Avis</span>
                         </div>
                       </div>
-                      <p>“He quickly delivered excellent design a per required specifications. New landing page
-                        will
-                        have refreshing simple look, while keeping page load light on images and at the same
-                        keeping
-                        professional look. Finally, it also seems very reasonable to implement responsive design,
-                        so
-                        I'm very happy with that.”</p>
+                      <p>“La playlist LoFi est parfaite pour travailler, sans coupures.”</p>
                       <div className="border-line"></div>
                       <div className="testimonial-info d-flex align-items-center">
-                        <img src="/assets/img/bg-img/16.png" alt="" />
+                        <LazyImage src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Avatar" />
                         <div>
-                          <h4>Daniyel Karlos</h4>
-                          <p className="mb-0">UX Designer</p>
+                          <h4>Ali</h4>
+                          <p className="mb-0">Auditeur</p>
                         </div>
                       </div>
                     </SwiperSlide>

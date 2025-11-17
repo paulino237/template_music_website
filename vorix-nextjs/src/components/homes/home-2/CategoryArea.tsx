@@ -47,11 +47,15 @@ const CategoryArea = () => {
         <Marquee gradient={false} speed={50}>
           <h2 className="d-flex align-items-center mb-0">
             <span>#</span>
-            <span>Web Design</span>
+            <span>Rock</span>
             <span>#</span>
-            <span>Web Development</span>
+            <span>LoFi</span>
             <span>#</span>
-            <span>UI/UX Design</span>
+            <span>Indie</span>
+            <span>#</span>
+            <span>EDM</span>
+            <span>#</span>
+            <span>Acoustic</span>
           </h2>
         </Marquee>
       </div>

@@ -8,8 +8,8 @@ import PortfolioDetailsArea from "./PortfolioDetailsArea";
 const PortfolioDetails = () => {
 	return (
 		<>
-			<HeaderOne />
-			<Breacrumb title="Portfolio Details" subtitle="Portfolio" />
+      <HeaderOne />
+      <Breacrumb title="Détails Playlist" subtitle="Playlists" />
 			<PortfolioDetailsArea />
 			<Cta2Area />
 			<FooterOne />

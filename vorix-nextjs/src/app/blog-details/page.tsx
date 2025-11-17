@@ -3,9 +3,8 @@ import BlogDetails from "@/components/blog-details";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Blog Details Vorix - Creative Digital Agency Next js Template",
-	description: "Vorix - Creative Digital Agency HTML Template",
-	 
+	title: "Détails du blog Nocturne Music - Template Next.js",
+	description: "Nocturne Music - Détails d'article.",
 };
 
 const index = () => {

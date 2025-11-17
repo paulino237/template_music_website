@@ -3,9 +3,8 @@ import TeamDetails from "@/components/team-details";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Team Details Vorix - Creative Digital Agency Next js Template",
-	description: "Vorix - Creative Digital Agency HTML Template",
-	 
+	title: "Détails de l'équipe Nocturne Music - Template Next.js",
+	description: "Nocturne Music - Profil d'équipe.",
 };
 
 const index = () => {

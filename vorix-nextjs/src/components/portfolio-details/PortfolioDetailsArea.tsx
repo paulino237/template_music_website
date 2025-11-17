@@ -1,5 +1,6 @@
 
 import React from 'react';
+import LazyImage from '@/common/LazyImage';
 
 const PortfolioDetailsArea = () => {
   return (
@@ -12,47 +13,42 @@ const PortfolioDetailsArea = () => {
 
             <div className="col-12">
               <div className="portfolio-details-content">
-                <img src="/assets/img/bg-img/38.jpg" alt="" />
+                <LazyImage src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Console de mixage" />
               </div>
             </div>
 
             <div className="col-12 col-lg-8">
               <div className="portfolio-details-content">
-                <h2 className="display-4 fw-semibold">Website UI UX Design</h2>
+                <h2 className="display-4 fw-semibold">Playlist : Focus & Study</h2>
 
-                <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a book
-                  bethas survived not only five when anner year unknown printer eed little help from friend from time
-                  to time. Although we offer the one-stop convenience.</p>
+                <p>Une sélection LoFi et Chillhop pensée pour la concentration et le travail.
+                  Des titres enchaînés sans coupures et des visuels immersifs pour une ambiance moderne.</p>
 
-                <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a book
-                  bethas survived not only five when anner year unknown printer eed little.</p>
+                <p>Chaque morceau a été choisi pour sa régularité et son équilibre sonore, afin de
+                  maintenir un flux d’énergie constant sans distraction.</p>
 
                 <div className="row g-4">
                   <div className="col-6">
-                    <img src="/assets/img/bg-img/7.jpg" alt="" />
+                    <LazyImage src="https://images.pexels.com/photos/164694/pexels-photo-164694.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Guitare" />
                   </div>
                   <div className="col-6">
-                    <img src="/assets/img/bg-img/8.jpg" alt="" />
+                    <LazyImage src="https://images.pexels.com/photos/164716/pexels-photo-164716.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Vinyle" />
                   </div>
                 </div>
 
-                <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a book
-                  bethas survived not only five when anner year unknown printer eed little help from friend from time
-                  to time. Although we offer the one-stop convenience. unknown printer took galley type year anddey
-                  scrambled. unknown printer.</p>
+                <p>La playlist alterne textures douces et beats réguliers pour favoriser la productivité.
+                  L’objectif est une écoute longue et fluide, sans pics d’intensité.</p>
 
                 <div className="d-flex gap-3 flex-column">
-                  <h3>Challenge & Solution </h3>
-                  Future, as it seeks to lead the industry in technological innovation and sustainable building
-                  practices to deliver long-lasting value for its clients.
+                  <h3>Défi & Solution</h3>
+                  Créer une ambiance propice au focus : sélection de morceaux stables, visuels sobres,
+                  et enchaînements sans rupture pour une immersion continue.
                 </div>
 
                 <div className="d-flex gap-3 flex-column">
-                  <h3>Final Result</h3>
-                  <p>For almost 50 years Leighton Asia, one of the region's largest and mot respected construction
-                    companies, has been progressively building for a better future by leveraging international
-                    expertise with local intelligence. In that time Leighton has delivered some of Asia's
-                    prestigious buildings and transformational infrastructure projects.</p>
+                  <h3>Résultat</h3>
+                  <p>Une playlist qui accompagne efficacement les sessions de travail, avec un son
+                    équilibré et une interface élégante. Écoute prolongée sans interruption.</p>
                 </div>
               </div>
             </div>
@@ -60,21 +56,21 @@ const PortfolioDetailsArea = () => {
             <div className="col-12 col-lg-4">
 
               <div className="portfolio-widget">
-                <h4 className="mb-4">Project Information</h4>
+                <h4 className="mb-4">Informations Playlist</h4>
 
                 <div className="mb-4">
-                  <p className="mb-0">Client</p>
+                  <p className="mb-0">Curateur</p>
                   <h5 className="mb-0">Jessica Brown</h5>
                 </div>
 
                 <div className="mb-4">
-                  <p className="mb-0">Cost</p>
-                  <h5 className="mb-0">USD 1,50,499</h5>
+                  <p className="mb-0">Durée</p>
+                  <h5 className="mb-0">02:45:00</h5>
                 </div>
 
                 <div className="mb-4">
-                  <p className="mb-0">Category</p>
-                  <h5 className="mb-0">Business, Marketing</h5>
+                  <p className="mb-0">Genres</p>
+                  <h5 className="mb-0">LoFi, Chillhop</h5>
                 </div>
 
                 <div className="mb-4">

@@ -3,9 +3,8 @@ import Contact from "@/components/contact";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-	title: "Contact Vorix - Creative Digital Agency Next js Template",
-	description: "Vorix - Creative Digital Agency HTML Template",
-	 
+	title: "Contact Nocturne Music - Template Next.js",
+	description: "Nocturne Music - Contact et support.",
 };
 
 const index = () => {

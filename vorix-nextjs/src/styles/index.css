@@ -36,3 +36,7 @@
   0% { background-position: 0% 0; }
   100% { background-position: -200% 0; }
 }
+
+.clients-images.horizontal figure { margin: 0; text-align: center; }
+.clients-images.horizontal img { width: 60px; height: 60px; object-fit: cover; border-radius: 8px; }
+.clients-images.horizontal figcaption { font-size: 12px; margin-top: 6px; }

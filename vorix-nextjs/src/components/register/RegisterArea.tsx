@@ -13,7 +13,7 @@ const RegisterArea = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
               <div className="authentification-card">
-                <h3 className="mb-1">Sign up to Vorix</h3>
+                <h3 className="mb-1">Sign up to Nocturne</h3>
                 <p className="mb-4">Registration takes less than a minute.</p>
 
                 <form onClick={(e) => e.preventDefault()}>
