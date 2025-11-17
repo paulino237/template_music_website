@@ -13,7 +13,7 @@ const menu_data = [
     link: "#",
     has_dropdown: true,
     sub_menus: [
-      { link: "/#lecteur", title: "Lecteur" },
+      { link: "/lecteur", title: "Lecteur" },
       { link: "/portfolio", title: "Playlists" },
       { link: "/team", title: "Artistes" },
     ]

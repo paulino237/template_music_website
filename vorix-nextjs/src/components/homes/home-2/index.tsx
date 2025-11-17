@@ -37,7 +37,7 @@ const HomeTwo = () => {
 	return (
 		<>
 			<HeaderOne style_2={true} />
-      <div id="home2-wrap" style={{ perspective: 1200 }}>
+	      <div id="home2-wrap" style={{ perspective: 1200 }}>
         <MotionFlipReveal><HeroArea /></MotionFlipReveal>
         <MotionFlipReveal delay={0.05}><VideoArea /></MotionFlipReveal>
         <MotionFlipReveal delay={0.1}><MissionArea /></MotionFlipReveal>

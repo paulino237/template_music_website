@@ -17,6 +17,7 @@ export default function RootLayout({
       </head>
       <body className="dark-mode">
         <RouteLoader />
+        <AmbientAudio />
         <Suspense>
           {children}
         </Suspense>
@@ -26,3 +27,4 @@ export default function RootLayout({
 }
 import RouteLoader from "@/common/RouteLoader";
 import { Suspense } from "react";
+import AmbientAudio from "@/common/AmbientAudio";

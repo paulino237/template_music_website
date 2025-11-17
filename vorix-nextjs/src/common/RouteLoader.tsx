@@ -8,7 +8,7 @@ export default function RouteLoader() {
 
   useEffect(() => {
     setShow(true);
-    const t = setTimeout(() => setShow(false), 3000);
+    const t = setTimeout(() => setShow(false), 2000);
     return () => clearTimeout(t);
   }, [pathname]);
 
